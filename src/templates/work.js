@@ -13,11 +13,11 @@ export default ({ data }) => (
       <h1 className="sheet__title">{data.datoCmsWork.title}</h1>
       <p className="sheet__lead">{data.datoCmsWork.excerpt}</p>
       <div className="sheet__slider">
-        <Slider infinite={false} slidesToShow={2} arrows>
-          {data.datoCmsWork.gallery.map(({ resize }) => (
-            <img key={resize.src} src={resize.src} />
-          ))}
-        </Slider>
+        {/*<Slider infinite={false} slidesToShow={2} arrows>*/}
+          {/*{data.datoCmsWork.gallery.map(({ resize }) => (*/}
+            {/*<img key={resize.src} src={resize.src} />*/}
+          {/*))}*/}
+        {/*</Slider>*/}
       </div>
       <div
         className="sheet__body"
